@@ -1,0 +1,15 @@
+
+  # Jupyter Notebooks                                                                                                                                                 
+  .ipynb_checkpoints                                                                                                                                                  
+  */.ipynb_checkpoints/*                                                                                                                                                     
+  # Python                                                                                                                                                   
+  __pycache__/                                                                                                                                                        
+  *.py[cod]                                                                                                                                                   
+  *$py.class                                                                                                                                     
+  # OS specific                                                                                                                                                
+  .DS_Store                                                                                                                                      
+  Thumbs.db                                                                                                                                                   
+  # Virtual Environments                                                                                                                 
+  venv/                                                                                                                     
+  env/                                                                                                                    
+  .env                                                                                                                        
