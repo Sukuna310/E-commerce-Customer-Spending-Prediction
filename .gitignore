@@ -1,15 +1,35 @@
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
-  # Jupyter Notebooks                                                                                                                                                 
-  .ipynb_checkpoints                                                                                                                                                  
-  */.ipynb_checkpoints/*                                                                                                                                                     
-  # Python                                                                                                                                                   
-  __pycache__/                                                                                                                                                        
-  *.py[cod]                                                                                                                                                   
-  *$py.class                                                                                                                                     
-  # OS specific                                                                                                                                                
-  .DS_Store                                                                                                                                      
-  Thumbs.db                                                                                                                                                   
-  # Virtual Environments                                                                                                                 
-  venv/                                                                                                                     
-  env/                                                                                                                    
-  .env                                                                                                                        
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc          # redundant with *.py[cod] but common to include
+*.pyo
+*.pyd
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/         # also common venv name
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# Data / secrets (common in data science)
+*.csv          # optional — only if you don't want to track data files
+*.pkl
+.env.local
