@@ -6,7 +6,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.pyc          # redundant with *.py[cod] but common to include
+*.pyc          
 *.pyo
 *.pyd
 dist/
@@ -22,7 +22,7 @@ Thumbs.db
 venv/
 env/
 .env
-.venv/         # also common venv name
+.venv/         
 ENV/
 
 # IDEs
@@ -30,6 +30,6 @@ ENV/
 .idea/
 
 # Data / secrets (common in data science)
-*.csv          # optional — only if you don't want to track data files
+*.csv         
 *.pkl
 .env.local
